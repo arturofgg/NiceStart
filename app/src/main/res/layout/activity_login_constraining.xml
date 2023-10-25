@@ -7,25 +7,15 @@
     tools:context=".LoginConstraining">
 
     <Button
-        android:id="@+id/register"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="REGISTER"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
         android:text="OK"
-        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintEnd_toStartOf="@+id/cancel"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        />
-
-    <!-- -->
+        tools:layout_editor_absoluteY="435dp" />
 
     <Button
         android:id="@+id/cancel"
@@ -34,5 +24,33 @@
         android:text="CANCEL"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ok"
-        />
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/cancel"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toEndOf="@+id/ok"
+        tools:layout_editor_absoluteY="45dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="105dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintGuide_end="105dp" />
+
+    <!--packed, spread, spread_inside-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>
