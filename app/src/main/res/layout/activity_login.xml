@@ -4,7 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradientelogin"
     tools:context=".login">
+    <!--Añadimos el gradiente de gradientlogn y colors a nuestro login -->
+
+    <!-- Imagen chica -->
+    <ImageView
+        android:id="@+id/girl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/girl"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <!-- logo rayo -->
+    <ImageView
+        android:id="@+id/thunder"
+        android:layout_width="74dp"
+        android:layout_height="107dp"
+        android:src="@drawable/ic_thunder"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="39dp" />
 
     <Button
         android:id="@+id/ok"
@@ -26,15 +47,25 @@
         app:layout_constraintStart_toEndOf="@+id/ok"
         tools:layout_editor_absoluteY="435dp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <TextView
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@+id/cancel"
-        app:layout_constraintHorizontal_bias="0.481"
-        app:layout_constraintStart_toEndOf="@+id/ok"
-        tools:layout_editor_absoluteY="45dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:background="#FDFDFD"
+        android:backgroundTint="#D8CECE"
+        android:text="LOGIN"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DAC8C8"
+        android:text="PASSWORD"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="292dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -50,22 +81,6 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="@id/guideline"
         app:layout_constraintGuide_end="105dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LOGIN"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="236dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PASSWORD"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="292dp" />
 
     <!--packed, spread, spread_inside-->
 </androidx.constraintlayout.widget.ConstraintLayout>
