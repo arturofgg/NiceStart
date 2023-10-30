@@ -21,66 +21,89 @@
     <!-- logo rayo -->
     <ImageView
         android:id="@+id/thunder"
-        android:layout_width="74dp"
-        android:layout_height="107dp"
+        android:layout_width="71dp"
+        android:layout_height="94dp"
         android:src="@drawable/ic_thunder"
         tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="39dp" />
+        tools:layout_editor_absoluteY="41dp" />
 
     <Button
-        android:id="@+id/ok"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
-        android:text="OK"
-        app:layout_constraintEnd_toStartOf="@+id/cancel"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="435dp" />
-
-    <Button
-        android:id="@+id/cancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CANCEL"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ok"
-        tools:layout_editor_absoluteY="435dp" />
-
-    <TextView
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FDFDFD"
-        android:backgroundTint="#D8CECE"
+        android:id="@+id/LOGIN"
+        android:onClick="openMain"
         android:text="LOGIN"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="236dp" />
-
-    <TextView
-        android:id="@+id/password"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/til2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#DAC8C8"
-        android:text="PASSWORD"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="292dp" />
+        />
+
+    <Button
+        android:id="@+id/SIGNUP"
+        android:text="SIGNUP"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/LOGIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Añadimos edit text del username -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/thunder"
+        app:startIconDrawable="@drawable/ic_action_name">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:background="@color/white"
+            android:hint="Username"></EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Campo contraseña -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/til1"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/password_icon">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:background="@color/white"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            >
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="105dp" />
+        app:layout_constraintGuide_percent="0.20" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="@id/guideline"
-        app:layout_constraintGuide_end="105dp" />
+        app:layout_constraintGuide_percent="0.80" />
 
     <!--packed, spread, spread_inside-->
 </androidx.constraintlayout.widget.ConstraintLayout>
