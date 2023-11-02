@@ -4,21 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradientelogin"
-    tools:context=".login">
-    <!--Añadimos el gradiente de gradientlogn y colors a nuestro login -->
+    android:background="@drawable/gradienteregister" >
 
-    <!-- Imagen chica -->
     <ImageView
         android:id="@+id/girl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitStart"
-        android:src="@drawable/girl"
+        android:src="@drawable/hipman"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <!-- logo rayo -->
     <ImageView
         android:id="@+id/thunder"
         android:layout_width="71dp"
@@ -26,35 +22,18 @@
         android:layout_marginStart="168dp"
         android:layout_marginTop="41dp"
         android:layout_marginBottom="596dp"
+        android:backgroundTint="#FFFFFF"
         android:src="@drawable/ic_thunder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <Button
-        android:id="@+id/LOGIN"
-        style="@style/buttonflat"
-        android:onClick="openMain"
-        android:text="LOGIN"
-        app:layout_constraintEnd_toEndOf="@id/guideline2"
-        app:layout_constraintStart_toStartOf="@id/guideline"
-        app:layout_constraintTop_toBottomOf="@id/til2" />
-
-    <Button
-        android:id="@+id/SIGNUP"
-        style="@style/buttonoutlined"
-        android:text="SIGNUP"
-        app:layout_constraintEnd_toEndOf="@id/guideline2"
-        app:layout_constraintStart_toStartOf="@id/guideline"
-        app:layout_constraintTop_toBottomOf="@id/LOGIN" />
-
-    <!-- Añadimos edit text del username -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@id/thunder"
@@ -69,14 +48,36 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Campo contraseña -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@id/til1"
+        app:startIconDrawable="@drawable/emailicon">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:background="@color/white"
+            android:hint="Email"
+            android:maxLines="1"></EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- Campo contraseña -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/til2"
         app:passwordToggleEnabled="true"
         app:startIconDrawable="@drawable/password_icon">
 
@@ -90,6 +91,38 @@
             android:maxLines="1"></EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/til3"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/password_icon">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:background="@color/white"
+            android:hint="Repeat Password"
+            android:inputType="textPassword"
+            android:maxLines="1"></EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/LOGIN"
+        style="@style/buttonflat"
+        android:onClick="openMain"
+        android:text="REGISTER"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/til4" />
+
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -105,5 +138,5 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.80" />
 
-    <!--packed, spread, spread_inside-->
 </androidx.constraintlayout.widget.ConstraintLayout>
+
