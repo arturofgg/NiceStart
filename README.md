@@ -1,10 +1,10 @@
 # NiceStart
 
-This **repository** will be used during the different activities that I will be guiding you through.
+Ventana de MainActivity:
+![main activity](img/login.JPG)
 
-![login activity](img/login.png)
+Ventana de login:
+![login activity](img/login.JPG)
 
-I'll meet you over there, can't wait to get started!
-
->This repository is licensed under
->[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
+Ventana de register:
+![login activity](img/register.JPG)
