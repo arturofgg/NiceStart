@@ -1,7 +1,5 @@
 # NiceStart
 
-## This is an introduction to awesome Interfaces you wanna cry
-
 This **repository** will be used during the different activities that I will be guiding you through.
 
 ![login activity](img/login.png)
