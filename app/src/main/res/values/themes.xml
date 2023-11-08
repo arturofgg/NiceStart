@@ -11,6 +11,31 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
     </style>
+        <!-- Customize your theme here. -->
+    <style name="ActionTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:statusBarColor">@color/fucsia_700</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!--        <item name="alertDialogStyle">@style/MyDialog</item>-->
+        <!--                <item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+    <style name="MyActionBar" parent="Widget.MaterialComponents.Light.ActionBar.Solid">
+        <item name="background">@color/fucsia_200</item>
+    </style>
+
+    <style name="Theme.NiceStart.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NiceStart.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NiceStart.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
 </resources>
