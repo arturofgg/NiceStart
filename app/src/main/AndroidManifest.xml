@@ -25,6 +25,12 @@
         </activity>
 
         <activity
+            android:name=".register"
+            android:exported="true"
+            android:parentActivityName=".login"
+            android:theme="@style/ActionTheme" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
 
