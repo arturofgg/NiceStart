@@ -1,10 +1,19 @@
-# NiceStart
+# Proyecto Android Studio - NiceStart 
 
-This **repository** will be used during the different activities that I will be guiding you through.
+Este proyecto de Android Studio es una aplicación simple que demuestra la navegación entre las pantallas de inicio de sesión, registro y la actividad principal. Aunque no incluye funcionalidades de autenticación, sirve como un ejemplo de flujo de navegación básico en una aplicación Android.
 
-![login activity](img/login.png)
+## Características
 
-I'll meet you over there, can't wait to get started!
+- **Pantalla de Inicio de Sesión (Login):** Permite a los usuarios acceder a la pantalla de registro o la actividad principal.
 
->This repository is licensed under
->[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
+- **Pantalla de Registro (Register):** Los usuarios pueden navegar a esta pantalla para crear cuentas, aunque no se almacena información.
+
+- **Actividad Principal (MainActivity):** Representa la página principal de la aplicación.
+
+## Capturas de pantalla
+
+![login activity](img/login.JPG)
+
+![login activity](img/register.JPG)
+
+![main activity](img/main.JPG)

@@ -21,14 +21,11 @@
         android:layout_width="71dp"
         android:layout_height="94dp"
         android:layout_marginStart="168dp"
-        android:layout_marginTop="41dp"
-        android:layout_marginBottom="596dp"
+        android:layout_marginTop="84dp"
         android:backgroundTint="#FFFFFF"
         android:src="@drawable/ic_thunder"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til1"
@@ -118,7 +115,6 @@
     <Button
         android:id="@+id/LOGIN"
         style="@style/buttonflat"
-        android:onClick="openMain"
         android:text="REGISTER"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline"
@@ -139,10 +135,13 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.80" />
 
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/Theme.NiceStart.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -151,7 +150,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:minHeight="?actionBarSize"
-            android:text="@string/app_name"
+            android:text="BACK"
+            android:onClick="goBacktoLogin"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
         <com.google.android.material.tabs.TabLayout
@@ -161,6 +161,4 @@
             android:visibility="gone" />
     </com.google.android.material.appbar.AppBarLayout>
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
