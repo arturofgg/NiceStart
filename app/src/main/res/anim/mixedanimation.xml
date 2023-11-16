@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
-    android:duration="1000"
+    android:duration="500"
     android:fillAfter="true">
     <scale xmlns:android="http://schemas.android.com/apk/res/android"
         android:fromXScale="0"
@@ -17,4 +17,22 @@
         android:pivotY="50%"
         android:toDegrees="0">
     </rotate>
+
+    <translate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromXDelta="2%"
+        android:fromYDelta="-2%"
+        android:interpolator="@anim/cycleanimation"
+        android:toXDelta="5%"
+        android:toYDelta="2%"
+        android:startOffset="1000">
+    </translate>
+
+    <alpha
+        android:fillAfter="true"
+        android:fromAlpha="0.0"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:toAlpha="1.0" />
+
+
 </set>
