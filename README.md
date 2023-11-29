@@ -42,7 +42,3 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
 
   
   ![dependencies](img/dependencies.PNG)
-
-![dependencies](img/dependecies.png)
-
-![refreshnopeople](img/refreshnopeople.png)
