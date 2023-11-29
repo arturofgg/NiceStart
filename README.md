@@ -1,4 +1,4 @@
-![Screen_recording_20231129_132845](https://github.com/arturofgg/NiceStart/assets/113636946/bceea1ad-37ee-42ca-9c22-3ea5771cc1d5)# Proyecto Android Studio - NiceStart 
+# Proyecto Android Studio - NiceStart 
 
 Este proyecto de Android Studio es una aplicación simple que demuestra la navegación entre las pantallas de inicio de sesión, registro y la actividad principal. Aunque no incluye funcionalidades de autenticación, sirve como un ejemplo de flujo de navegación básico en una aplicación Android. **NiceStart** también dispone de algunos ejemplos de animaciones y una pantalla con una rueda de refresco implementada.
 
