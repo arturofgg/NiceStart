@@ -5,27 +5,43 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
 ## Características
 
 - **Pantalla de Inicio de Sesión (Login):** Permite a los usuarios acceder a la pantalla de registro o la actividad principal.
+
+
   ![login activity](img/login.JPG)
 
 - **Pantalla de Registro (Register):** Los usuarios pueden navegar a esta pantalla para crear cuentas, aunque no se almacena información.
+
+  
   ![login activity](img/register.JPG)
 
 - **Actividad Principal (MainActivity):** Representa la página principal de la aplicación.
+
+  
   ![main activity](img/main.JPG)
 
 - **Animaciones personalizadas:** Se han realizado distintas animaciones de forma manual, aunque no son visibles en el estado actual del proyecto. Estas animaciones están aplicadas al logo incial del proyecto.
-  ![anim](img/anim.png)
-  ![anim1](img/anim1.png)
+
+  
+  ![anim](img/anim.PNG)
+  
+  ![anim1](img/anim1.PNG)
   
 - **Animaciones con Lottie:** En una versión más actualizada del proyecto se implementaron algunas animaciones con Lottie.
-  ![anim2](img/anim2.png)
-  ![anim3](img/anim3.png)
 
-- **Pantalla para prueba de refresco (NoPeople):** 
+  
+  ![anim2](img/anim2.PNG)
+  
+  ![anim3](img/anim3.PNG)
+
+- **Pantalla para prueba de refresco (NoPeople):**
+
+  
   ![nopeople](img/refreshnopeople.png)
 
-- **Dependencias externas para el correcto funcionamento del proyecto:** 
-  ![dependencies](img/dependencies.png)
+- **Dependencias externas para el correcto funcionamento del proyecto:**
+
+  
+  ![dependencies](img/dependencies.PNG)
  
   
 
