@@ -28,7 +28,8 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
 
 
   El código de **mixedanimation** se ve asi:
-  ```
+  
+  ```xml
   <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:duration="500"
@@ -62,7 +63,7 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
         android:repeatMode="reverse"
         android:toAlpha="1.0" />
 </set>
-  ```
+```
   
 - **Animaciones con Lottie:** En una versión más actualizada del proyecto se implementaron algunas animaciones con Lottie.
 
