@@ -28,6 +28,9 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
   ![anim](img/anim.PNG)
   
   ![anim1](img/anim1.PNG)
+
+  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/7150c408-fee5-4043-a3a3-0f7927979535" alt="Texto alternativo" width="100"/>
+
   
   ![Screen_recording_20231129_135825](https://github.com/arturofgg/NiceStart/assets/113636946/7150c408-fee5-4043-a3a3-0f7927979535)
 
