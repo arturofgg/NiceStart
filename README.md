@@ -6,20 +6,17 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
 
 - **Pantalla de Inicio de Sesión (Login):** Permite a los usuarios acceder a la pantalla de registro o la actividad principal.
 
-
-  ![login activity](img/login.JPG)
+  <img src="img/login.JPG"  width="200"/>
   
 
 - **Pantalla de Registro (Register):** Los usuarios pueden navegar a esta pantalla para crear cuentas, aunque no se almacena información.
 
-  
-  ![login activity](img/register.JPG)
+  <img src="img/register.JPG"  width="200"/>
   
 
 - **Actividad Principal (MainActivity):** Representa la página principal de la aplicación.
 
-  
-  ![main activity](img/main.JPG)
+   <img src="img/main.JPG)"  width="200"/>
   
 
 - **Animaciones personalizadas:** Se han realizado distintas animaciones de forma manual, aunque no son visibles en el estado actual del proyecto. Estas animaciones están aplicadas al logo incial del proyecto.
@@ -28,7 +25,7 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
   ![anim](img/anim.PNG)
   
 
-  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/7150c408-fee5-4043-a3a3-0f7927979535" alt="Texto alternativo" width="200"/>
+  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/7150c408-fee5-4043-a3a3-0f7927979535"  width="200"/>
 
   
 - **Animaciones con Lottie:** En una versión más actualizada del proyecto se implementaron algunas animaciones con Lottie.
@@ -37,13 +34,13 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
   ![anim2](img/anim2.PNG)
   
 
-  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/ed523dc4-c228-46b4-b838-d4d0889f6820" alt="Texto alternativo" width="200"/>
+  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/ed523dc4-c228-46b4-b838-d4d0889f6820"  width="200"/>
 
 
 - **Pantalla para prueba de refresco (NoPeople):**
 
   
-  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/a644bb96-3723-4985-be42-c5ec43691663" alt="Texto alternativo" width="200"/>
+  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/a644bb96-3723-4985-be42-c5ec43691663"  width="200"/>
   
 
 - **Dependencias externas para el correcto funcionamento del proyecto:**
