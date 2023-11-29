@@ -16,7 +16,7 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
 
 - **Actividad Principal (MainActivity):** Representa la página principal de la aplicación.
 
-   <img src="img/main.JPG)"  width="200"/>
+   <img src="img/main.JPG"  width="200"/>
   
 
 - **Animaciones personalizadas:** Se han realizado distintas animaciones de forma manual, aunque no son visibles en el estado actual del proyecto. Estas animaciones están aplicadas al logo incial del proyecto.
