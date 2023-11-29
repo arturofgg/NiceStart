@@ -27,9 +27,8 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
   
   ![anim](img/anim.PNG)
   
-  ![anim1](img/anim1.PNG)
-  
-  ![Screen_recording_20231129_135825](https://github.com/arturofgg/NiceStart/assets/113636946/7150c408-fee5-4043-a3a3-0f7927979535)
+
+  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/7150c408-fee5-4043-a3a3-0f7927979535" alt="Texto alternativo" width="200"/>
 
   
 - **Animaciones con Lottie:** En una versión más actualizada del proyecto se implementaron algunas animaciones con Lottie.
@@ -37,19 +36,14 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
   
   ![anim2](img/anim2.PNG)
   
-  ![anim3](img/anim3.PNG)
 
-  ![Screen_recording_20231129_135505](https://github.com/arturofgg/NiceStart/assets/113636946/ed523dc4-c228-46b4-b838-d4d0889f6820)
+  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/ed523dc4-c228-46b4-b838-d4d0889f6820" alt="Texto alternativo" width="200"/>
 
-  
 
 - **Pantalla para prueba de refresco (NoPeople):**
 
   
-  ![nopeople](img/refreshnopeople.png)
-  
-  ![Screen_recording_20231129_132845](https://github.com/arturofgg/NiceStart/assets/113636946/a644bb96-3723-4985-be42-c5ec43691663)
-
+  <img src="https://github.com/arturofgg/NiceStart/assets/113636946/a644bb96-3723-4985-be42-c5ec43691663" alt="Texto alternativo" width="200"/>
   
 
 - **Dependencias externas para el correcto funcionamento del proyecto:**
