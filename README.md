@@ -6,20 +6,17 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
 
 - **Pantalla de Inicio de Sesión (Login):** Permite a los usuarios acceder a la pantalla de registro o la actividad principal.
 
-
-  ![login activity](img/login.JPG)
+  <img src="img/login.JPG" alt="Texto alternativo" width="200"/>
   
 
 - **Pantalla de Registro (Register):** Los usuarios pueden navegar a esta pantalla para crear cuentas, aunque no se almacena información.
 
-  
-  ![login activity](img/register.JPG)
+  <img src="img/register.JPG" alt="Texto alternativo" width="200"/>
   
 
 - **Actividad Principal (MainActivity):** Representa la página principal de la aplicación.
 
-  
-  ![main activity](img/main.JPG)
+   <img src="img/main.JPG)" alt="Texto alternativo" width="200"/>
   
 
 - **Animaciones personalizadas:** Se han realizado distintas animaciones de forma manual, aunque no son visibles en el estado actual del proyecto. Estas animaciones están aplicadas al logo incial del proyecto.
