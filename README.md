@@ -1,4 +1,4 @@
-# Proyecto Android Studio - NiceStart 
+![Screen_recording_20231129_132845](https://github.com/arturofgg/NiceStart/assets/113636946/bceea1ad-37ee-42ca-9c22-3ea5771cc1d5)# Proyecto Android Studio - NiceStart 
 
 Este proyecto de Android Studio es una aplicación simple que demuestra la navegación entre las pantallas de inicio de sesión, registro y la actividad principal. Aunque no incluye funcionalidades de autenticación, sirve como un ejemplo de flujo de navegación básico en una aplicación Android. **NiceStart** también dispone de algunos ejemplos de animaciones y una pantalla con una rueda de refresco implementada.
 
@@ -28,6 +28,8 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
   ![anim](img/anim.PNG)
   
   ![anim1](img/anim1.PNG)
+  
+  ![Screen_recording_20231129_135825](https://github.com/arturofgg/NiceStart/assets/113636946/7150c408-fee5-4043-a3a3-0f7927979535)
 
   
 - **Animaciones con Lottie:** En una versión más actualizada del proyecto se implementaron algunas animaciones con Lottie.
@@ -36,12 +38,18 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
   ![anim2](img/anim2.PNG)
   
   ![anim3](img/anim3.PNG)
+
+  ![Screen_recording_20231129_135505](https://github.com/arturofgg/NiceStart/assets/113636946/ed523dc4-c228-46b4-b838-d4d0889f6820)
+
   
 
 - **Pantalla para prueba de refresco (NoPeople):**
 
   
   ![nopeople](img/refreshnopeople.png)
+  
+  ![Screen_recording_20231129_132845](https://github.com/arturofgg/NiceStart/assets/113636946/a644bb96-3723-4985-be42-c5ec43691663)
+
   
 
 - **Dependencias externas para el correcto funcionamento del proyecto:**
