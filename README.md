@@ -17,3 +17,15 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
 ![login activity](img/register.JPG)
 
 ![main activity](img/main.JPG)
+
+![main activity](img/anim.JPG)
+
+![main activity](img/anim1.JPG)
+
+![main activity](img/anim2.JPG)
+
+![main activity](img/anim3.JPG)
+
+![main activity](img/dependecies.JPG)
+
+![main activity](img/refreshnopeople.JPG)
