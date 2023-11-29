@@ -42,24 +42,6 @@ Este proyecto de Android Studio es una aplicación simple que demuestra la naveg
 
   
   ![dependencies](img/dependencies.PNG)
- 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-![anim2](img/anim2.png)
-
-![anim3](img/anim3.png)
 
 ![dependencies](img/dependecies.png)
 
