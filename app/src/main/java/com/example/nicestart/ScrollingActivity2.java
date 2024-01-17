@@ -11,17 +11,17 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 
-import com.eramiro.first.databinding.ActivityScrollingBinding;
+import com.example.nicestart.databinding.ActivityScrolling2Binding;
 
-public class ScrollingActivity extends AppCompatActivity {
+public class ScrollingActivity2 extends AppCompatActivity {
 
-    private ActivityScrollingBinding binding;
+    private ActivityScrolling2Binding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityScrollingBinding.inflate(getLayoutInflater());
+        binding = ActivityScrolling2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         Toolbar toolbar = binding.toolbar;

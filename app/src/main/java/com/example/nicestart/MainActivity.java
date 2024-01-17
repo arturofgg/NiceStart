@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // do something like...
-                Intent intent = new Intent(MainActivity.this, ScrollingActivity.class);
+                Intent intent = new Intent(MainActivity.this, ScrollingActivity2.class);
                 startActivity(intent);
                 dialog.dismiss();
 
